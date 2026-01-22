@@ -7,8 +7,10 @@
             "orig.ident", "p_val", "p_val_PB_DESeq2", "p_val_adj", "stars",
             "p_val_adj_PB_DESeq2", "pct.exp", "prob", "proportion",
             "run_scvi", "scDblFinder_class", "significance", "heatmap",
-            "split_bar_gsea", "useMyCol", "value", "variable", "xaxis"
-            ))
+            "split_bar_gsea", "useMyCol", "value", "variable", "xaxis",
+            "pivot_longer", "heatmap_foldchange", "p.adjust", "group1", "group2"
+            , ".y.", "n1","n2","statistic", "p.adj", "p.adj.signif",
+            "setNames", "eval_integration"))
     }
     invisible()
 }
