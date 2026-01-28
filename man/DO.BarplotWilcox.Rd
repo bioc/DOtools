@@ -18,7 +18,8 @@ DO.BarplotWilcox(
   x_label_rotation = 45,
   plotPvalue = FALSE,
   y_limits = NULL,
-  log1p_nUMI = TRUE
+  log1p_nUMI = TRUE,
+  random_seed = 42
 )
 }
 \arguments{
@@ -54,6 +55,8 @@ multiple tests}
 \item{y_limits}{set limits for y-axis}
 
 \item{log1p_nUMI}{If nUMIs should be log1p transformed}
+
+\item{random_seed}{parameter for random state initialisation}
 }
 \value{
 a ggplot or a list with plot and data frame
