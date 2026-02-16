@@ -30,7 +30,7 @@ License: MIT + file LICENSE
 BugReports: https://github.com/MarianoRuzJurado/DOtools/issues
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
 biocViews: SingleCell, RNASeq, Visualization, Clustering, Annotation, WorkflowStep, QualityControl, GeneExpression
 Depends: R (>= 4.5.0)
 Imports:
@@ -70,6 +70,7 @@ Imports:
         SingleCellExperiment (>= 1.30.1),
         S4Vectors (>= 0.46.0),
         basilisk (>= 1.20.0),
+        FNN (>= 1.1.4.1),
         methods,
         stats,
         utils
@@ -92,6 +93,7 @@ Suggests:
     igraph,
     sessioninfo,
     testthat (>= 3.0.0),
+    leidenbase (>= 0.1.36),
     mockery
 VignetteBuilder:
     knitr
